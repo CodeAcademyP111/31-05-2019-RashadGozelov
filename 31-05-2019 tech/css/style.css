@@ -1,0 +1,572 @@
+/* HEADER */
+#slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#slider .slide {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+#slider .slide .item {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#slider .slide .item img {
+    width: 100%;
+    height: 100%;
+}
+
+#slider .slide .item .cover {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#slider .slide .item .word {
+    position: absolute;
+    top: 40%;
+}
+#slider #Tour{
+    color: white;
+    font-weight: lighter;
+}
+#slider .slide .item .word h3 {
+    font-size: 3.3em;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 68px;
+}
+
+#slider .slide .item .word h4 {
+    color: white;
+    margin: 1em 0 1.5em;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+#slider .slide .item .word a {
+    border: 2px solid white;
+    border-radius: 0px;
+    padding: 11px 30px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+/* navigation button Start*/
+
+#slider .navigation {
+    position: absolute;
+    top: 45%;
+    color: white;
+    font-size: 30px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+#slider .navigation:hover {
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+#slider .right {
+    right: 10px;
+}
+
+#slider .left {
+    left: 10px;
+    display: none;
+}
+
+/* navigation button End*/
+
+/* navba Start */
+
+nav {
+    position: relative;
+    z-index: 1;
+    padding: 5px 0;
+    border-bottom: 1px solid white;
+}
+
+nav img {
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    color: white;
+}
+
+nav ul {
+    padding: 15px 0;
+}
+
+nav ul li a {
+    text-decoration: none !important;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 10px 13px;
+    font-weight: 400;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+nav ul li a:hover {
+    color: inherit;
+}
+
+nav ul li .book {
+    background: #047ffc;
+    padding: 10px 25px;
+    display: block;
+    margin-top: -7px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+/* navba End */
+                   /* HEADER */
+
+                   /* MAIN */
+/* SECTION  1 Start*/
+#explore-main{
+    padding-top: 3rem !important;
+    padding-bottom: 5rem !important;
+}
+
+#explore-main .item{
+    padding-top: 30px;
+}
+
+#explore-main .item h3{
+    font-weight: initial;
+    word-spacing: 4px;
+}
+
+#explore-main .item p{
+    word-spacing: 5px;
+    padding-top: 25px;
+}
+
+#explore-main .img-malasia img{
+    width: 90%;
+    margin-left: 54px;
+}
+
+#explore-main .explore-main-smile{
+    text-align: center;
+}
+
+#explore-main .explore-main-smile span{
+    color: #047ffc;
+    font-size: 30px;
+}
+
+#explore-main .explore-main-smile .Number{
+    font-size: 2.5em;
+}
+
+#explore-main .explore-main-smile #years{
+    color: #777;
+    font-size: 22px
+}
+/* SECTION  1 End */
+/* SECTION  2 Start*/
+#trip-main{
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    background-color: dodgerblue;
+}
+
+#trip-main .item-title{
+    width: 100%;
+}
+
+#trip-main .item-title h1{
+    text-align: center;
+    color: white;
+    font-size: 43px;
+    font-weight: 400;
+}
+
+#trip-main .item-col{
+    text-align: center;
+}
+
+#trip-main .item-col .icon-radius span{
+    color: dodgerblue;
+    font-size: 25px;
+}
+
+#trip-main .item-col .icon-radius{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    line-height: 80px;
+    margin: 0 auto 15px;
+}
+
+#trip-main .item-col h4{
+    color: white;
+}
+
+#trip-main .item-col p{
+    color: antiquewhite;
+    padding-top: 25px;
+}
+/* SECTION  2 End*/
+/* SECTION  3 Start*/
+#discover-main{
+    padding-top: 3rem !important;
+    padding-bottom: 2cm !important;
+}
+
+#discover-main .discover-title{
+    width: 100%;
+    text-align: center;
+}
+
+#discover-main .discover-title h1{
+    font-weight: 400;
+    word-spacing: 3px;
+    font-size: 45px;
+}
+
+#discover-main .discover-title p{
+    font-size: 18px;
+    color: dimgray;
+}
+
+#discover-main .card-bg{
+background: #fafafa !important;
+box-shadow: 0px 0px 10px silver;
+} 
+
+#discover-main .item{
+    position: relative;
+}
+
+#discover-main .item .dollar{
+    position: absolute;
+    top: 130px;
+    right: 5px;
+    background: #047ffc;
+    color: white;
+    padding: 5px;
+}
+
+#discover-main .card-title .country i{
+    color: blue;
+}
+
+#discover-main .card-title span{
+    color: black;
+    opacity: 0.6;
+    margin-left: 10px;
+}
+
+#discover-main .card-text h5{
+    font-size: 18px;
+}
+
+#discover-main .card-text .vestibulum{
+    
+    color: black;
+    opacity: 0.7;
+}
+
+#discover-main .card-text .icon-clock i{
+    color: blue;
+}
+
+#discover-main .card-text .duration{
+    color: black;
+    opacity: 0.6;
+}
+
+#discover-main .discover-button{
+    text-align: center;
+    width: 200px;
+    background: #047ffc;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+#discover-main .button-center{
+    width: 100%;
+    text-align: center;
+}
+
+#discover-main .discover-button .view{
+    color: white !important;
+    text-decoration: none;
+} 
+/* SECTION  3 End*/
+/* SECTION  4 Start*/
+#trip{
+    position: relative;
+    padding-bottom: 1cm !important;
+}
+
+#trip .cover{
+    width: 100%;
+    height: 370px;
+    opacity: 0.4;
+    background-color: black;
+    position: absolute;
+    
+}
+
+#trip .trip-bg{
+    background-image: url("../img/banner4.jpg");
+    width: 100%;
+    height: 370px;
+    background-position: center center;
+}
+
+#trip .trip-bg .trip-col{
+
+}
+
+#trip .trip-bg .trip-col .book-button{
+    border: 2px solid white;
+    display: inline-block;
+    padding: 10px 35px;
+}
+
+#trip .trip-bg .trip-col .book{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+#trip .trip-bg h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#trip .trip-bg p{
+    color: white;
+    font-size: 17px;
+    padding-top: 25px;
+}
+/* SECTION 4 End */
+/* SECTION 5 Start */
+#popular{
+    padding-top: 3rem !important;
+    padding-bottom: 2cm !important;
+}
+
+#popular .popular-title{
+    width: 100%;
+    text-align: center;
+}
+
+#popular .popular-title h1{
+    font-weight: 400;
+    word-spacing: 3px;
+    font-size: 45px;
+}
+
+#popular .popular-title p{
+    font-size: 18px;
+    color: dimgray;
+}
+
+#popular .item{
+    position: relative;
+    
+}
+
+#popular .item .star{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #047ffc;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#popular .item p{
+    text-align: center;
+    font-size: 22px;
+}
+
+#popular .item .slide-down{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    transform: translateY(144px);
+    transition: all 0.8s;
+    
+}
+
+#popular .item .slide-down .slide-down-body p{
+    color: white;
+    top: 15px;
+}
+
+#popular .item .slide-down .slide-down-body .book-button{
+    border: 1px solid white;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+#popular .item .slide-down .slide-down-body .book-button .book{
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 18px;
+}
+
+#popular .item .card-position{
+     position: relative;
+    overflow: hidden; 
+}
+
+#popular .item .card-position:hover .slide-down{
+    transform: translateY(0px);
+}
+/* SECTION 5 End */
+/* FOOTER Start */
+#footer-start{}
+
+#footer-start .footer-bg{
+    background: black;
+    padding-top: 4rem !important;
+}
+
+#footer-start .footer-bg .text h4{
+    color: white;
+    font-weight: 400;
+}
+
+#footer-start .footer-bg .text p{
+    
+    color: white;
+    opacity: 0.4;
+    padding-top: 1rem;
+}
+
+#footer-start .footer-bg .text a{
+    color: white;
+}
+
+#footer-start .footer-bg .text a .face{
+    background: #3b5998;
+    padding: 5px 10px;
+}
+
+#footer-start .footer-bg .text a .twit{
+    padding: 5px 8px;
+    background-color: #1da1f2;
+}
+
+#footer-start .footer-bg .text a .goo{
+    padding: 5px 5px;
+    background-color: #dd4b39;
+}
+
+#footer-start .footer-bg .text a .linked{
+    padding: 5px 10px;
+    background-color: #0077b5;
+}
+
+#footer-start .footer-bg .text ul{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 1rem;  
+    color: white;
+    opacity: 0.4;
+}
+
+#footer-start .footer-bg .text input{
+    width: 100%;
+    background-color: black;
+    border: 1px solid white;
+    color: white;   
+    padding: 10px 10px;
+}
+
+#footer-start .footer-bg .text2{
+    text-align: center;
+}
+
+#footer-start .footer-bg .text2 p{
+    color: white;
+    opacity: 0.5;
+}
+
+#footer-start .footer-bg .text2 a{
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: 400;
+}
+#footer-start .footer-bg .text .plan{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 15px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#footer-start .footer-bg .text form{
+    position: relative;
+}
+
+#footer-start .footer-bg .text2 .angle{
+    border-radius: 50%;
+    background-color: blue;
+    padding: 15px 20px;
+    color: white;
+}
+
+#footer-start .footer-bg .text2 .angle-class{
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1400px){
+   .slide-down{
+       display: none;
+   }
+}
+
